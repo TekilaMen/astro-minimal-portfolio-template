@@ -1,12 +1,9 @@
-<div align="center">
-    <h1 align="center">Minimal portfolio template for Astro</a></h1>
-    <p align="center">Open source minimalistic portfolio template created with <a href="https://astro.build/" target="_blank">Astro</a> and <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>. Design inspired by <a href="https://www.b-r.io/" target="_blank">Brian Ruiz</a> </p>
-  <a href="https://minimal-portfolio.witzdam.com/" target="_blank" align="center">
-    <img src="https://legende.cc/ss/oNWKICeAR1.png" alt="Theme preview" width="975"/>
-    <img src="https://legende.cc/ss/ygdmeIzQIp.png" alt="Lighthouse score 100" />
-</a>
-</div>
-<br />
+# Minimal portfolio template for Astro
+
+Open source minimalistic portfolio template created with [Astro](https://astro.build/) and [Tailwind](https://tailwindcss.com/). Design inspired by [Brian Ruiz](https://www.b-r.io/).
+
+[![Theme preview](https://legende.cc/ss/oNWKICeAR1.png)](https://minimal-portfolio.witzdam.com/)
+[![Lighthouse score 100](https://legende.cc/ss/ygdmeIzQIp.png)](https://minimal-portfolio.witzdam.com/)
 
 [Preview](https://minimal-portfolio.witzdam.com/)
 
@@ -23,20 +20,20 @@
 
 1. Clone/download the repo
 
-```
+```cmd
 git clone https://github.com/TimWitzdam/astro-minimal-portfolio-template.git
 cd astro-minimal-portfolio-template
 ```
 
 2. Install dependencies
 
-```
+```cmd
 npm i
 ```
 
 3. Run the development server
 
-```
+```cmd
 npm run dev
 ```
 
