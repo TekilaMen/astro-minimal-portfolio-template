@@ -134,25 +134,11 @@ export const projectsPageContent: ProjectPageContent = {
   subtitle: "Check out what I've been working on.",
   projects: [
     {
-      title: "Project 1",
-      description: "Project 1 Description",
+      title: "Kitsune",
+      description: "A simple and fast discord bot using discord.js.",
       image: "/demo-2.jpg",
       year: "2024",
-      url: "https://github.com/TekilaMen",
-    },
-    {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
-      year: "2024",
-      url: "https://github.com/TekilaMen",
-    },
-    {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
-      year: "2024",
-      url: "https://github.com/TekilaMen",
+      url: "https://github.com/TekilaMen/Kitsune",
     },
   ],
 };
