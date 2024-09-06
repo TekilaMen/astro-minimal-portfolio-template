@@ -8,11 +8,14 @@ const postsCollection = defineCollection({
     pubDate: z.date(),
     description: z.string(),
     author: z.string(),
-    image: z.object({
-      url: z.string(),
-      alt: z.string(),
-    }),
+    image: z
+      .object({
+        url: z.string(),
+        alt: z.string(),
+      })
+      .optional(),
     readingTime: z.number().optional(),
+    pdf: z.string().optional(),
   }),
 });
 // Export a single `collections` object to register your collection(s)
