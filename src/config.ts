@@ -83,9 +83,7 @@ export const aboutPageContent: AboutPageContent = {
   about: {
     description: `
 I'm Léo Stephan, a full time student from France who also loves building cool things using code.
-<br/><br/>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat est architecto tempora voluptatem sit suscipit aspernatur? <br/><br/>
-Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium consectetur nemo vero officia itaque.`, // Markdown is supported
+<br/><br/>`, // Markdown is supported
     image_l: {
       url: "/demo-1.jpg",
       alt: "Left Picture",
@@ -101,20 +99,11 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
       {
         title: "Software Developer",
         company: {
-          name: "Freelance",
+          name: "Caldera",
           image: "/logo.webp",
           url: "https://github.com/TekilaMen",
         },
-        date: "2021 - Present",
-      },
-      {
-        title: "Software Developer",
-        company: {
-          name: "Freelance",
-          image: "/logo.webp",
-          url: "https://github.com/TekilaMen",
-        },
-        date: "2019 - 2021",
+        date: "2024 - Present",
       },
     ],
   },
@@ -139,6 +128,21 @@ export const projectsPageContent: ProjectPageContent = {
       image: "/demo-2.jpg",
       year: "2024",
       url: "https://github.com/TekilaMen/Kitsune",
+    },
+    {
+      title: "GalaxyTask",
+      description:
+        "Galaxy Task is a mobile application that gives you the opportunity to interact with your Trello account using the opensource API provided by this same site.",
+      image: "/project2.png",
+      year: "2024",
+      url: "https://github.com/TekilaMen/GalaxyTask",
+    },
+    {
+      title: "PixelSword Adventures",
+      description: "An RPG game made from scratch using LibGDX and Java.",
+      image: "/project3.png",
+      year: "2024",
+      url: "https://github.com/TekilaMen/PixelSword-Adventures",
     },
   ],
 };
